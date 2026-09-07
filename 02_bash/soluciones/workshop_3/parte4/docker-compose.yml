@@ -1,0 +1,16 @@
+services:
+  web:
+    build: ./nginx
+    container_name: reto-nginx
+    ports:
+      - "8080:80"
+    volumes:
+      - ./logs:/var/log/compartido
+
+  bash:
+    build: ./ubuntu
+    container_name: reto-bash
+    stdin_open: true          # -i : mantiene STDIN abierto
+    tty: true                 # -t : asigna una TTY para que el contenedor siga vivo
+    volumes:
+      - ./logs:/logs          # misma carpeta de logs compartida con nginx

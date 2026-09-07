@@ -1,0 +1,24 @@
+===== MONITOR DEL CONTENEDOR =====
+Hostname:   cf8cf8a98081
+Usuario:    root
+Fecha:      Mon Sep  7 04:32:19 UTC 2026
+Directorio: /app
+
+===== DISCO =====
+Filesystem      Size  Used Avail Use% Mounted on
+overlay        1007G  6.7G  950G   1% /
+tmpfs            64M     0   64M   0% /dev
+tmpfs           3.8G     0  3.8G   0% /sys/fs/cgroup
+shm              64M     0   64M   0% /dev/shm
+C:\             476G  466G   11G  98% /logs
+/dev/sdd       1007G  6.7G  950G   1% /etc/hosts
+tmpfs           3.8G     0  3.8G   0% /proc/acpi
+tmpfs           3.8G     0  3.8G   0% /sys/firmware
+
+===== PROCESOS =====
+Procesos activos: 7
+
+===== UMBRAL (80%) =====
+ADVERTENCIA: /logs al 98%
+
+===== FIN DEL REPORTE =====
