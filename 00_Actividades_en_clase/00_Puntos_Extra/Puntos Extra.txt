@@ -1,0 +1,3 @@
+3/8/2026 - Wk 1 y 2: 5
+26/10/2026 - Puntos por llegar temprano
+26/10/2026 - Puntos por migrar el proyecto a EC2
