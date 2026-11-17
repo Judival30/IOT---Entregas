@@ -1,0 +1,12 @@
+===== Informe de diagnostico =====
+Fecha: 2026-11-16 16:34:49
+--- Proceso con mayor consumo de CPU ---
+Usuario: judival+ PID: 2428 CPU: 100% MEM: 0.0% Comando: yes
+--- Errores HTTP 500 ---
+Total: 2
+--- Errores por servicio ---
+      1 auth
+      1 api
+--- Mensajes de error ---
+api: Database error
+auth: Token invalid

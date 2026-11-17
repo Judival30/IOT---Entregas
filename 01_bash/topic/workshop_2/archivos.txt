@@ -1,0 +1,4 @@
+archivos.txt
+estudiantes.txt
+notas
+/home/judival30/talleres/01_bash/workshop_2
